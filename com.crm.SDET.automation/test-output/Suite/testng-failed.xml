@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.crm.vtiger.Createorganizationtest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.Createorganizationtest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.crm.vtiger.Createcampaign_productnametest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.Createcampaign_productnametest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.crm.vtiger.Createopportunity_organizationstest">
+        <methods>
+          <include name="test"/>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.Createopportunity_organizationstest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
